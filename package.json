@@ -1,0 +1,10 @@
+{
+  "name": "AlgoTraining",
+  "version": "0.0.0",
+  "description": "AlgoTraining",
+  "main": "app.js",
+  "author": {
+    "name": "vacla",
+    "email": ""
+  }
+}
