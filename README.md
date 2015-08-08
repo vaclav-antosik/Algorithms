@@ -1,6 +1,3 @@
 ﻿# AlgoTraining
 
-Requires: 
-nodejs
-mocha
-chai
+Requires: node.js tools for visual studio, node.js, mocha, chai
