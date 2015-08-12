@@ -1,5 +1,7 @@
 ﻿'use strict';
 
-var ss = require("./Sort/ShakerSort");
+var generator = require("./Test/GenerateSortTestFile");
 
-var res = ss.sort([3, 2, 1]);
+generator.generateSortTestFile("./Test/!TestData/big.json", "sort.json");
+
+console.log("done");
