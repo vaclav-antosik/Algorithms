@@ -34,10 +34,12 @@
     <Compile Include="Guard.js" />
     <Compile Include="Helpers.js" />
     <Compile Include="Sort\BubbleSort.js" />
+    <Compile Include="Sort\SelectionSort.js" />
     <Compile Include="Sort\ShakerSort.js" />
     <Compile Include="Test\GenerateSortTestFile.js" />
     <Compile Include="Test\Sort\BubbleSortTest.js" />
-    <Compile Include="Test\Sort\ShakerSort.js" />
+    <Compile Include="Test\Sort\SelectionSortTest.js" />
+    <Compile Include="Test\Sort\ShakerSortTest.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="Test\!TestData\big.json" />

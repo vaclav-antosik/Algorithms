@@ -18,7 +18,6 @@ function sort(input) {
         }
     }
     
-    var endTime = process.hrtime(startTime);
     helpers.writeTime(startTime);
 
     return input;
