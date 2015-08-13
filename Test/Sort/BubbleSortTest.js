@@ -8,9 +8,17 @@ chai.should();
 var bubbleSort = require("../../Sort/BubbleSort");
 var testSet = JSON.parse(fs.readFileSync("./Test/!TestData/sort.json", 'utf8'));
 
-describe("BubbleSort", function () {
+describe("-- BubbleSort --", function () {
     it("should throw exception when input parameter is not array", function () {
         assert.throws(function () { bubbleSort.sort("foo"); })
+    });
+    
+    it("should be [1,2,3,4,5] when input is [1,2,3,4,5]", function () {
+        bubbleSort.sort([1, 2, 3, 4, 5]).should.eql([1, 2, 3, 4, 5]);
+    });
+
+    it("should be [0,0,2,2,3,3] when input is [0,3,3,2,2,0]", function () {
+        bubbleSort.sort([0, 3, 3, 2, 2, 0]).should.eql([0, 0, 2, 2, 3, 3]);
     });
 
     it("should be [1,2,3] when input is [3,2,1]", function () {
