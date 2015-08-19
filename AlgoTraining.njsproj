@@ -35,11 +35,13 @@
     <Compile Include="Helpers.js" />
     <Compile Include="Sort\BubbleSort.js" />
     <Compile Include="Sort\InsertionSort.js" />
+    <Compile Include="Sort\QuickSort.js" />
     <Compile Include="Sort\SelectionSort.js" />
     <Compile Include="Sort\ShakerSort.js" />
     <Compile Include="Test\GenerateSortTestFile.js" />
     <Compile Include="Test\Sort\BubbleSortTest.js" />
     <Compile Include="Test\Sort\InsertionSortTest.js" />
+    <Compile Include="Test\Sort\QuickSortTest.js" />
     <Compile Include="Test\Sort\SelectionSortTest.js" />
     <Compile Include="Test\Sort\ShakerSortTest.js" />
     <Content Include="package.json" />

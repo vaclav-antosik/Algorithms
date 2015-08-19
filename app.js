@@ -4,8 +4,8 @@
 
 //generator.generateSortTestFile("./Test/!TestData/big.json", "sort.json");
 
-var insertionSort = require("./Sort/InsertionSort");
+var quickSort = require("./Sort/QuickSort");
 
-var result = insertionSort.sort([3,2,1]);
+var result = quickSort.sort([0, 3, 3, 2, 2, 0]);
 
 console.log("done");
